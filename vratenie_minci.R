@@ -10,6 +10,7 @@ VratitMince <- function(M){
   M <- M%%5
   vratenie[5] <- M%/%2
   M <- M%%2
-  vratenie[6] <- M
+  vratenie[6] <- M%/%1
   return(vratenie)
 }
+
